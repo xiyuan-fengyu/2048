@@ -1096,6 +1096,7 @@ window.uis={};
 	_proto.data_i = function () {
 		var t = new eui.Group();
 		this.data = t;
+		t.visible = false;
 		return t;
 	};
 	_proto._Group1_i = function () {
